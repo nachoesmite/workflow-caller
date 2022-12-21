@@ -4,6 +4,11 @@ on:
   push:
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "HELLO WORLD"
   call-workflow:
     uses: nachoesmite/workflow-lib/.github/test-inputs.yaml@main
     with:
