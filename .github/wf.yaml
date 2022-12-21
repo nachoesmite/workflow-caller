@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: nachoesmite/workflow-lib/.github/test-inputs.yaml@v136703331e6ef2906fcedb059a7174f015763975e
+    uses: nachoesmite/workflow-lib/.github/test-inputs.yaml@main
     with:
       config-path: .github/labeler.yml
 
