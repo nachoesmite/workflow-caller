@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "HELLO WORLD"
+          echo "HELLO WORLDDDDD"
   call-workflow:
     uses: nachoesmite/workflow-lib/.github/workflows/test.yaml@main
